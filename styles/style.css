@@ -5,6 +5,42 @@ body {
     font-family: 'Poppins', sans-serif;
     background: #E5E5E5;
 }
+/* heading details */
+header{
+    background-color: #562EFF;
+    color: white;
+    border-radius: 5px;
+}
+.head-background{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 150px;
+    align-items: center;
+}
+
+.profile-idea, .icon-idea{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    
+}
+.profile a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.light img{
+    width: 40px;
+    height: 51px;
+    margin-top: 15px;
+}
+.icon img{
+    width: 51px;
+    height: 51px;
+}
 
 main {
     display: flex;
